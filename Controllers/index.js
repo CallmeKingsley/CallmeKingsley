@@ -1,5 +1,5 @@
-const todoController = require('./todoController')
+const errorReportController = require('./errorReportController')
 
 module.exports = {
-  todoController
+  errorReportController
 }

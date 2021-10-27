@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
-const todoRoutes = require('./todoRoutes')
+const errorRoutes = require('./errorReportRoutes')
 
-router.use('/allTodos', todoRoutes)
+router.use('/error', errorRoutes)
 
 module.exports = router
